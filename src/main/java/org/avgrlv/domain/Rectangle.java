@@ -26,6 +26,10 @@ public class Rectangle {
         this.height = height;
     }
 
+    public double getArea() {
+        return weight * height;
+    }
+
     public double getPerimeter() {
         return 2 * weight + 2 * height;
     }
