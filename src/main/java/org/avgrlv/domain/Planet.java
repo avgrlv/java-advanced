@@ -21,7 +21,7 @@ public class Planet extends SpaceObject {
 
     public Planet(String name, double mass, List<Satellite> satellites) {
         super(name, mass);
-        this.satellites = satellites;
+        this.satellites = new ArrayList<>(satellites);
     }
 
     @Override
