@@ -1,6 +1,8 @@
 package org.avgrlv.homeTasks;
 
+import org.avgrlv.domain.Planet;
 import org.avgrlv.domain.Rectangle;
+import org.avgrlv.domain.Satellite;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +38,7 @@ public class FirstHomeTask {
     }
 
     private static void task2() {
-
+        List<Planet> planets = new ArrayList<>();
+        planets.add(new Planet("земля", 24421.3, List.of(new Satellite("луна", 5544, "Белый"))));
     }
 }

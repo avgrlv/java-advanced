@@ -40,7 +40,9 @@ public class Rectangle {
         if (o == null || getClass() != o.getClass()) return false;
         Rectangle rectangle = (Rectangle) o;
         return Double.compare(this.weight, rectangle.weight) == 0
-                && Double.compare(height, rectangle.height) == 0;
+                && Double.compare(height, rectangle.height) == 0
+                || Double.compare(this.weight, rectangle.height) == 0
+                && Double.compare(height, rectangle.weight) == 0;
     }
 
     @Override

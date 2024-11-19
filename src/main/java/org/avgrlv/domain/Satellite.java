@@ -11,7 +11,8 @@ public class Satellite extends SpaceObject {
         this.color = color;
     }
 
-    public Satellite(String name, double mass) {
+    public Satellite(String name, double mass, String color) {
         super(name, mass);
+        this.color = color;
     }
 }

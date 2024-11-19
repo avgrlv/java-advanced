@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Planet extends SpaceObject {
-    private final List<Satellite> satellites = new ArrayList<>();
+    private List<Satellite> satellites = new ArrayList<>();
 
     public List<Satellite> getSatellites() {
         return satellites;
@@ -14,7 +14,8 @@ public class Planet extends SpaceObject {
         this.satellites.add(satellite);
     }
 
-    public Planet(String name, double mass) {
+    public Planet(String name, double mass, List<Satellite> satellites) {
         super(name, mass);
+        this.satellites = satellites;
     }
 }
