@@ -1,6 +1,6 @@
 package org.avgrlv.domain;
 
-public abstract class SpaceObject {
+public class SpaceObject {
     private String name;
     private double mass;
 
@@ -23,5 +23,13 @@ public abstract class SpaceObject {
     public SpaceObject(String name, double mass) {
         this.name = name;
         this.mass = mass;
+    }
+
+    @Override
+    public String toString() {
+        return "SpaceObject{" +
+                "name='" + name + '\'' +
+                ", mass=" + mass +
+                '}';
     }
 }

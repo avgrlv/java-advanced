@@ -14,8 +14,21 @@ public class Planet extends SpaceObject {
         this.satellites.add(satellite);
     }
 
+    public Planet(String name, double mass) {
+        super(name, mass);
+        this.satellites = new ArrayList<>();
+    }
+
     public Planet(String name, double mass, List<Satellite> satellites) {
         super(name, mass);
         this.satellites = satellites;
+    }
+
+    @Override
+    public String toString() {
+        return "Planet {" +
+                super.toString() +
+                " satellites=" + satellites +
+                "} " ;
     }
 }
