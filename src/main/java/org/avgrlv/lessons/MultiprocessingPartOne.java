@@ -1,6 +1,6 @@
 package org.avgrlv.lessons;
 
-public class Multiprocessing {
+public class MultiprocessingPartOne {
     public static void main(String[] args) throws InterruptedException {
 //        example0();
 //        example1();
