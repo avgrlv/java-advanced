@@ -1,9 +1,9 @@
-package org.avgrlv.lessons;
+package org.avgrlv.lessons.third;
 
 import java.util.Arrays;
 import java.util.concurrent.*;
 
-public class MultithreadingPartThree {
+public class MultithreadingPartOne {
     static final int SIZE = 100;
     static final int HALF = SIZE / 2;
 

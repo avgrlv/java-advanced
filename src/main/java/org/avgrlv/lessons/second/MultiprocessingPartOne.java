@@ -1,4 +1,4 @@
-package org.avgrlv.lessons;
+package org.avgrlv.lessons.second;
 
 public class MultiprocessingPartOne {
     public static void main(String[] args) throws InterruptedException {

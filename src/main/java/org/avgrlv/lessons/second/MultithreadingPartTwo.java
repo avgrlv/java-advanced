@@ -1,4 +1,4 @@
-package org.avgrlv.lessons;
+package org.avgrlv.lessons.second;
 
 import org.avgrlv.domain.Box;
 
