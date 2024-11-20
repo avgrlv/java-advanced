@@ -1,4 +1,4 @@
-package org.avgrlv.lessons;
+package org.avgrlv.lessons.first;
 
 import org.avgrlv.domain.Person;
 import org.avgrlv.domain.Rectangle;
